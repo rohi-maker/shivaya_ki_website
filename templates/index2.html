@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>OUR TEMPLATE</title>
+</head>
+<body>
+<h1>WELCOME TO THE TEXT ANALYZER, ENTER YOUR TEXT BELOW PLEASE</h1>
+<form action='/analyze' method='get'><!-- methode =get means to submit the content of this page to next page-->
+    <textarea name='text' style='margin: 0px; width: 721px; height: 93px;'></textarea><br> <!--FOR TEXTAREA-->
+    <input type="checkbox" name="removepunc"> REMOVE PUNCTUATIONS <br> <!--FOR CHECK BUTTON-->  
+    <input type="checkbox" name="capall"> CAPETALIZE TEXT <br> <!--FOR CHECK BUTTON-->
+    <input type="checkbox" name="extraspaceremover"> REMOVE EXTRA SPACE <br> <!--FOR CHECK BUTTON-->
+    <input type="checkbox" name="newlineremover"> NEWLINE REMOVER <br> <!--FOR CHECK BUTTON-->
+    <input type="checkbox" name="charcounter"> COUNT CHARACTER'S IN TEXT <br> <!--FOR CHECK BUTTON-->
+    <input type="checkbox" name="spacecounter"> COUNT SPACE'S IN TEXT <br> <!--FOR CHECK BUTTON-->
+    <button type='submit'>ANALYZE TEXT</button>
+</form>
+</body>
+</html>
